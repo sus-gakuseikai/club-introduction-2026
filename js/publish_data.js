@@ -190,15 +190,6 @@ const publish_info = [
   {
     category: "文化系",
     clubs: [
-       { clubName: '神椿同好会',
-        id: 'kami',
-        isMovie: false,
-        movieUrl: '',
-        links: [
-            {
-            },
-        ]
-      },
        { clubName: 'e-Sports部',
         id: 'esport',//名前は適当
         isMovie: true,
