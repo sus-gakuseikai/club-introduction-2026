@@ -1,0 +1,60 @@
+#toc-container {
+  height: fit-content;
+  order: 2;
+  position: sticky;
+  top: 16px;
+}
+
+@media (max-width: 990px){
+  #toc-container {
+    height: auto;
+    order: -1;
+    position: relative;
+  }
+}
+
+li.indent {
+  text-indent: 1em;
+  border-left: solid 1px silver;
+  padding-left: 1rem;
+  position: relative;
+  box-sizing: border-box;
+}
+
+div#toc-container{
+  width: auto;
+  padding: 20px;
+  border: 1px solid gray;
+  background-color: rgb(210, 232, 247);
+  box-sizing: border-box;
+}
+
+h2{
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+}
+
+h3 {
+  position: relative;
+  display: inline-block;
+  padding: 0 55px;
+}
+
+h3:before, h3:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: black;
+}
+
+h3:before {
+  left:0;
+}
+h3:after {
+  right: 0;
+}
