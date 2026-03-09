@@ -198,7 +198,16 @@ const publish_info = [
           {
           },
         ]
-      }
+      },
+      { clubName: 'TRPG部',
+       id: 'TRPG',
+       isMovie: false,
+       movieUrl: '',
+       links: [
+         {
+         },
+         ]
+      },
     ]
   },
   {
