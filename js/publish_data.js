@@ -208,6 +208,24 @@ const publish_info = [
          },
          ]
       },
+      { clubName: 'SuwaGeeks(技術部)',
+        id: 'SuwaGeeks',//名前は適当
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+          },
+        ]
+      },
+       { clubName: 'AIサークル',
+        id: 'AI',//名前は適当
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+          },
+        ]
+      },
     ]
   },
   {
