@@ -226,6 +226,17 @@ const publish_info = [
           },
         ]
       },
+      { clubName: '天文部',
+        id: 'tenmon',//名前は適当
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+            label: '天文部Instagram',
+            url: 'https://www.instagram.com/sus_astronomical'
+          },
+        ]
+      },
     ]
   },
   {
