@@ -26,11 +26,7 @@ const publish_info = [
         links: [
             {
               label: 'X(旧Twitter)',
-              url: 'https://x.com/suwa_gakuseikai?s=20'
-            },
-          {
-              label: 'Instagram',
-              url: 'https://www.instagram.com/suwagakuseikai/'
+              url: 'https://x.com/suwa_gakuseikai'
             },
         ]
       },
