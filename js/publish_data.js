@@ -66,6 +66,15 @@ const publish_info = [
             },
         ]
       },
+      { clubName: '剣道部',
+        id: 'kendou',
+        isMovie: false,
+        movieUrl: '',
+        links: [
+            {
+            },
+        ]
+      },
       { clubName: '軟式野球部',
         id: 'softball_baseball',
         isMovie: false,
@@ -127,17 +136,6 @@ const publish_info = [
             {
               label: 'サバイバルゲーム部Twitter',
               url: 'https://x.com/sus_sarvival?s=21&t=1DRjJxI9fQyVarRTvQ_K6A'
-            },
-        ]
-      },
-      { clubName: '剣道部',
-        id: 'kendo',
-        isMovie: false,
-        movieUrl: '',
-        links: [
-            {
-              label: '剣道部連絡先',
-              url: 'kendo.suwarika@gmail.com'
             },
         ]
       },
