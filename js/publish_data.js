@@ -276,8 +276,9 @@ const publish_info = [
           },
         ]
       },
-      { clubName: 'チノリカ',
-        id: 'Chino_Rika',//名前は適当
+     {
+        clubName: 'チノリカ',
+        id: 'Chino_Rika',
         isMovie: false,
         movieUrl: '',
         links: [
@@ -291,8 +292,6 @@ const publish_info = [
   },
   {
     category: "外部団体",
-    clubs: [
-
-    ]
+    clubs: []
   },
-]
+];
