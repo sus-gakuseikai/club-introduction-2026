@@ -72,7 +72,7 @@ const publish_info = [
         ]
       },
       { clubName: '軟式野球部',
-        id: 'softball_baseball',
+        id: 'Softball_Baseball',
         isMovie: false,
         movieUrl: '',
         links: [
@@ -84,10 +84,14 @@ const publish_info = [
               label: '軟式野球部Instagram',
               url: 'https://www.instagram.com/sus_baseball/'
             },
+            {
+              label: '部長連絡先',
+              url: 't124045@ed.sus.ac.jp'
+            },
         ]
       },
        { clubName: 'フットサル',
-        id: 'futsal',
+        id: 'Futsal',
         isMovie: false,
         movieUrl: '',
         links: [
@@ -96,27 +100,16 @@ const publish_info = [
         ]
       },
        { clubName: 'バドミントン部',
-        id: 'badminton',
+        id: 'Badminton',
         isMovie: false,
         movieUrl: '',
         links: [
             {
-            },
-        ]
-      },
-      { clubName: 'クライミング部',
-        id: 'climbing',
-        isMovie: false,
-        movieUrl: '',
-        links: [
-            {
-              label: 'クライミング部X（旧Twitter）',
-              url: 'https://x.com/SuwarikaClimb'
             },
         ]
       },
        { clubName: '弓道部',
-        id: 'kyudo',
+        id: 'Archery',
         isMovie: false,
         movieUrl: '',
         links: [
@@ -125,7 +118,7 @@ const publish_info = [
         ]
       },
       { clubName: 'サバイバルゲーム部',
-        id: 'survival',
+        id: 'Survival_Game',
         isMovie: false,
         movieUrl: '',
         links: [
@@ -135,19 +128,8 @@ const publish_info = [
             },
         ]
       },
-       { clubName: 'ゴルフ部',
-        id: 'golf',
-        isMovie: false,
-        movieUrl: '',
-        links: [
-            {
-              label: 'ゴルフ部 Instagram',
-              url: 'https://www.instagram.com/sus_golfclub/'
-            },
-        ]
-      },
-       { clubName: 'サッカー部',
-        id: 'soccer',
+      { clubName: 'バスケットボール部',
+        id: 'Baseketball',
         isMovie: false,
         movieUrl: '',
         links: [
@@ -155,8 +137,8 @@ const publish_info = [
             },
         ]
       },
-       { clubName: 'テニス部',
-        id: 'tennis',
+      { clubName: '陸上競技部',
+        id: 'Track_And_Field',
         isMovie: false,
         movieUrl: '',
         links: [
@@ -164,21 +146,7 @@ const publish_info = [
             },
         ]
       },
-       { clubName: 'ソフトテニス部',
-        id: 'soft_tennis',
-        isMovie: false,
-        movieUrl: '',
-        links: [
-            {
-              label: 'ソフトテニス部Instagram',
-              url: 'https://www.instagram.com/sus_softtennnnnnis/profilecard/?igsh=cmpiYmR2eWNpcWx1'
-            },
-            {
-              label: 'ソフトテニス部X(旧Twitter)',
-              url: 'https://x.com/suwarikasoftten?s=11&t=G4qyaVHU1qU0DQaKFOKpWg'
-            },
-        ]
-      },
+       
     ]
   },
   {
