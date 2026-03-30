@@ -170,6 +170,15 @@ const publish_info = [
          },
          ]
       },
+      { clubName: 'リズムゲームサークル',
+        id: 'Rythm_Game',//名前は適当
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+          },
+        ]
+      },
       { clubName: 'SuwaGeeks(技術部)',
         id: 'SuwaGeeks',//名前は適当
         isMovie: false,
@@ -196,6 +205,85 @@ const publish_info = [
           {
             label: '天文部Instagram',
             url: 'https://www.instagram.com/sus_astronomical'
+          },
+        ]
+      },
+      { clubName: 'アンサンブルサークル',
+        id: 'Ensembl',//名前は適当
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+          },
+        ]
+      },
+      { clubName: '文芸部',
+        id: 'Literature',//名前は適当
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+          },
+        ]
+      },
+      { clubName: 'ボードゲーム部',
+        id: 'Board_Games',//名前は適当
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+          },
+        ]
+      },
+      { clubName: '鉄道研究部',
+        id: 'Railway',//名前は適当
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+            label: '鉄道研究部X',
+            url: 'https://x.com/suwarika_azusa'
+          },
+          {
+            label: '鉄道研究部',
+            url: 'https://www.instagram.com/suwarika_azusa/'
+          },
+        ]
+      },
+      { clubName: '写真部',
+        id: 'Photography',//名前は適当
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+          },
+        ]
+      },
+        ]
+      },
+      { clubName: '軽音学部',
+        id: 'K-On',//名前は適当
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+            label: '軽音学部X',
+            url: 'https://x.com/sus_schoolband?s=21'
+          },
+          {
+            label: '軽音学部Instagraｍ',
+            url: 'https://www.instagram.com/sus_schoolband?igsh=bWtvYWRheHpia2xo'
+          },
+        ]
+      },
+      { clubName: 'チノリカ',
+        id: 'Chino_Rika',//名前は適当
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+            label: 'チノリカいんすた',
+            url: 'https://www.instagram.com/chinorika22?igsh=cmQ2c2xsNmR1aXE2&utm_source=qr'
           },
         ]
       },
