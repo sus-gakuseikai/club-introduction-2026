@@ -211,3 +211,60 @@ const publish_info = [
         links: []
       },
       {
+        clubName: '鉄道研究部',
+        id: 'Railway',
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+            label: '鉄道研究部X',
+            url: 'https://x.com/suwarika_azusa'
+          },
+          {
+            label: '鉄道研究部Instagram',
+            url: 'https://www.instagram.com/suwarika_azusa/'
+          }
+        ]
+      },
+      {
+        clubName: '写真部',
+        id: 'Photography',
+        isMovie: false,
+        movieUrl: '',
+        links: []
+      },
+      {
+        clubName: '軽音学部',
+        id: 'K-On',
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+            label: '軽音学部X',
+            url: 'https://x.com/sus_schoolband?s=21'
+          },
+          {
+            label: '軽音学部Instagram',
+            url: 'https://www.instagram.com/sus_schoolband?igsh=bWtvYWRheHpia2xo'
+          }
+        ]
+      },
+      {
+        clubName: 'チノリカ',
+        id: 'Chino_Rika',
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+            label: 'チノリカいんすた',
+            url: 'https://www.instagram.com/chinorika22?igsh=cmQ2c2xsNmR1aXE2&utm_source=qr'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    category: '外部団体',
+    clubs: []
+  }
+];
