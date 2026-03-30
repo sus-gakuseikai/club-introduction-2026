@@ -33,7 +33,7 @@ const publish_info = [
       },
       {
         clubName: '新風祭実行委員',
-        id: 'shinpusai',
+        id: 'Shinpusai',
         isMovie: false,
         movieUrl: '',
         links: [
