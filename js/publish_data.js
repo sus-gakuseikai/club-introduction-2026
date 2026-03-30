@@ -56,6 +56,18 @@ const publish_info = [
   {
     category: '運動系',
     clubs: [
+       {
+        clubName: '野外活動サークル部',
+        id: 'Nokuru',
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+            label: '野外活動サークル Twitter',
+            url: 'https://x.com/suwanokuru'
+          }
+        ]
+      },
       {
         clubName: 'WORKOUT',
         id: 'workout',
