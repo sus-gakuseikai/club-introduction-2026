@@ -4,7 +4,7 @@ const publish_info = [
     clubs: [
       {
         clubName: '部活動説明会',
-        id: 'osirase', // intro_pngの中の名前。拡張端子はpngのみ
+        id: 'Osirase', // intro_pngの中の名前。拡張端子はpngのみ
         isMovie: false,
         movieUrl: '',
         links: [
@@ -21,7 +21,7 @@ const publish_info = [
     clubs: [
       {
         clubName: '学生会',
-        id: 'gakuseikai',
+        id: 'Gakuseikai',
         isMovie: false,
         movieUrl: '',
         links: [
@@ -66,21 +66,21 @@ const publish_info = [
       },
       {
         clubName: 'WORKOUT',
-        id: 'workout',
+        id: 'Workout',
         isMovie: false,
         movieUrl: '',
         links: []
       },
       {
         clubName: '剣道部',
-        id: 'kendou',
+        id: 'Kendou',
         isMovie: false,
         movieUrl: '',
         links: []
       },
       {
         clubName: '軟式野球部',
-        id: 'Softball_Baseball',
+        id: 'Softball',
         isMovie: false,
         movieUrl: '',
         links: [
@@ -153,6 +153,13 @@ const publish_info = [
         isMovie: false,
         movieUrl: '',
         links: []
+      },
+      {
+        clubName: '硬式テニス部',
+        id: 'Tennis',
+        isMovie: false,
+        movieUrl: '',
+        links: []
       }
     ]
   },
@@ -189,7 +196,7 @@ const publish_info = [
       },
       {
         clubName: '天文部',
-        id: 'tenmon',
+        id: 'Tenmon',
         isMovie: false,
         movieUrl: '',
         links: [
