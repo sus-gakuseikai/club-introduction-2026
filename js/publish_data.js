@@ -4,7 +4,7 @@ const publish_info = [
     clubs: [
       {
         clubName: '部活動説明会',
-        id: 'explanation', // intro_pngの中の名前。拡張端子はpngのみ
+        id: 'osirase', // intro_pngの中の名前。拡張端子はpngのみ
         isMovie: false,
         movieUrl: '',
         links: [
@@ -26,7 +26,7 @@ const publish_info = [
         movieUrl: '',
         links: [
           {
-            label: 'X(旧Twitter)',
+            label: '学生会 X',
             url: 'https://x.com/suwa_gakuseikai'
           }
         ]
@@ -44,10 +44,6 @@ const publish_info = [
           {
             label: '新風祭実行委員会 Instagram',
             url: 'https://www.instagram.com/suwarika_festival?igsh=cTZ0bm1icjRzNnd4'
-          },
-          {
-            label: '新風祭実行委員会 ホームページ',
-            url: 'https://recsuwa.net/'
           }
         ]
       }
@@ -63,7 +59,7 @@ const publish_info = [
         movieUrl: '',
         links: [
           {
-            label: '野外活動サークル Twitter',
+            label: '野外活動サークル X',
             url: 'https://x.com/suwanokuru'
           }
         ]
@@ -89,11 +85,11 @@ const publish_info = [
         movieUrl: '',
         links: [
           {
-            label: '軟式野球部X（旧Twitter）',
+            label: '軟式野球部 X',
             url: 'https://twitter.com/suwarikaBBC'
           },
           {
-            label: '軟式野球部Instagram',
+            label: '軟式野球部 Instagram',
             url: 'https://www.instagram.com/sus_baseball/'
           },
           {
@@ -103,7 +99,7 @@ const publish_info = [
         ]
       },
       {
-        clubName: 'フットサル',
+        clubName: 'フットサル部',
         id: 'Futsal',
         isMovie: false,
         movieUrl: '',
@@ -121,7 +117,16 @@ const publish_info = [
         id: 'Archery',
         isMovie: false,
         movieUrl: '',
-        links: []
+        links: [
+          {
+            label: '弓道部 X',
+            url: 'https://x.com/suwarika_kyudo'
+          },
+          {
+            label: '弓道部体験グループLINE',
+            url: 'https://line.me/ti/g/EYgsmja6fk'
+          }
+        ]
       },
       {
         clubName: 'サバイバルゲーム部',
@@ -130,14 +135,14 @@ const publish_info = [
         movieUrl: '',
         links: [
           {
-            label: 'サバイバルゲーム部Twitter',
+            label: 'サバイバルゲーム部 X',
             url: 'https://x.com/sus_sarvival?s=21&t=1DRjJxI9fQyVarRTvQ_K6A'
           }
         ]
       },
       {
         clubName: 'バスケットボール部',
-        id: 'Baseketball',
+        id: 'Basketball',
         isMovie: false,
         movieUrl: '',
         links: []
@@ -155,13 +160,6 @@ const publish_info = [
     category: '文化系',
     clubs: [
       {
-        clubName: 'e-Sports部',
-        id: 'esport',
-        isMovie: true,
-        movieUrl: 'https://www.youtube.com/embed/-1mw_ajWyKA',
-        links: []
-      },
-      {
         clubName: 'TRPG部',
         id: 'TRPG',
         isMovie: false,
@@ -170,7 +168,7 @@ const publish_info = [
       },
       {
         clubName: 'リズムゲームサークル',
-        id: 'Rythm_Game',
+        id: 'Rhythm_Game',
         isMovie: false,
         movieUrl: '',
         links: []
@@ -196,14 +194,14 @@ const publish_info = [
         movieUrl: '',
         links: [
           {
-            label: '天文部Instagram',
+            label: '天文部 Instagram',
             url: 'https://www.instagram.com/sus_astronomical'
           }
         ]
       },
       {
         clubName: 'アンサンブルサークル',
-        id: 'Ensembl',
+        id: 'Ensemble',
         isMovie: false,
         movieUrl: '',
         links: []
@@ -229,11 +227,11 @@ const publish_info = [
         movieUrl: '',
         links: [
           {
-            label: '鉄道研究部X',
+            label: '鉄道研究部 X',
             url: 'https://x.com/suwarika_azusa'
           },
           {
-            label: '鉄道研究部Instagram',
+            label: '鉄道研究部 Instagram',
             url: 'https://www.instagram.com/suwarika_azusa/'
           }
         ]
@@ -252,11 +250,11 @@ const publish_info = [
         movieUrl: '',
         links: [
           {
-            label: '軽音学部X',
+            label: '軽音学部 X',
             url: 'https://x.com/sus_schoolband?s=21'
           },
           {
-            label: '軽音学部Instagram',
+            label: '軽音学部 Instagram',
             url: 'https://www.instagram.com/sus_schoolband?igsh=bWtvYWRheHpia2xo'
           }
         ]
@@ -268,7 +266,7 @@ const publish_info = [
         movieUrl: '',
         links: [
           {
-            label: 'チノリカいんすた',
+            label: 'チノリカ Instagram',
             url: 'https://www.instagram.com/chinorika22?igsh=cmQ2c2xsNmR1aXE2&utm_source=qr'
           }
         ]
