@@ -61,7 +61,16 @@ const publish_info = [
           {
             label: '野外活動サークル X',
             url: 'https://x.com/suwanokuru'
-          }
+          },
+          {
+            label: '野外活動サークル インスタグラム',
+            url: 'https://www.instagram.com/suwa_nokuru/'
+          },
+          {
+            label: '野外活動サークル ブログ',
+            url: 'https://nokuru-sus.tokyo/'
+          },
+          
         ]
       },
       {
