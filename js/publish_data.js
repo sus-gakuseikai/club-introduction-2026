@@ -180,7 +180,12 @@ const publish_info = [
         id: 'TRPG',
         isMovie: false,
         movieUrl: '',
-        links: []
+        links: [
+          {
+            label: 'TRPG部 discord',
+            url: 'https://discord.gg/WSTDmNjGYV'
+          }
+               ]
       },
       {
         clubName: 'リズムゲームサークル',
