@@ -300,3 +300,8 @@ const publish_info = [
     ]
   }
 ];
+
+const contact_only_list = [
+  {name: '学生会', contact: 'suwagakuseikai@gmail.com'},
+  {name: '新風祭実行委員会', contact: 'shinpuusai2022@gmail.com'},
+]
