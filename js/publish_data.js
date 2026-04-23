@@ -298,6 +298,31 @@ const publish_info = [
     category: '各サークル連絡先',
     clubs: [
       {
+        clubName: '',
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+            label: '',
+            url: '',
+          }
+        ]
+      },
+      {
+        clubName: '',
+        isMovie: false,
+        movieUrl: '',
+        links: [
+          {
+            label: '',
+            url: '',
+          }
+        ]
+      },
+      {
+        clubName: '',
+        isMovie: false,
+        movieUrl: '',
         links: [
           {
             label: '',
