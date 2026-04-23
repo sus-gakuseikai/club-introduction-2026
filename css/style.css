@@ -4,11 +4,12 @@ div#toc-container{
   border: 1px solid gray;
   background-color: rgb(210, 232, 247);
   box-sizing: border-box;
-  height: calc(100vh - 32px);
+  height: calc(100vh - 60px);
   overflow-y: auto;
   position: sticky;
-  top: 16px;
+  top: 30px;
   order: 2;
+  z-index: 100;
 }
 #toc-container::-webkit-scrollbar {
   width: 6px;
