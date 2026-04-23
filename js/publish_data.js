@@ -295,7 +295,21 @@ const publish_info = [
     ]
   },
   {
+    category: '各サークル連絡先',
+    clubs: [
+      {
+        links: [
+          {
+            label: '',
+            url: '',
+          }
+        ]
+      }
+    ]
+  },
+  {
     category: '外部団体',
-    clubs: []
+    clubs: [
+    ]
   }
 ];
