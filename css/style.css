@@ -19,7 +19,7 @@ div#toc-container{
 }
 
 @media (max-width: 990px){
-  #toc-container {
+  div#toc-container {
     height: auto;
     order: -1;
     position: relative;
