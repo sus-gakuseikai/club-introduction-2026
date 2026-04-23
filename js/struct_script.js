@@ -118,6 +118,49 @@ function createContent() {
 
     }
   });
+
+  // 連絡先一覧の追加処理
+  // 1. 目次に「連絡先一覧」を追加
+  var contactTocLi = document.createElement('li');
+  var contactTocLink = document.createElement('a');
+  contactTocLink.href = '#ContactList';
+  contactTocLink.textContent = '各サークル連絡先一覧';
+  contactTocLink.className = 'text-decoration-none';
+  contactTocLi.appendChild(contactTocLink);
+  tocList.appendChild(contactTocLi);
+
+  // 2. 本文にヘッダー（h2）を追加
+  var contactHeader = document.createElement('h2');
+  contactHeader.id = 'ContactList';
+  contactHeader.className = 'mt-5';
+  contactHeader.textContent = '各サークル連絡先一覧';
+  articleContainer.appendChild(contactHeader);
+
+  // 3. 連絡先テーブルの作成
+  var tableDiv = document.createElement('div');
+  tableDiv.className = 'table-responsive';
+  
+  // ここで publish_data.js に作った新しい配列（仮に contact_data とします）を使います
+  var tableHtml = `
+    <table class="table table-striped mt-3 table-bordered">
+      <thead class="table-dark">
+        <tr>
+          <th style="width: 30%;">団体名</th>
+          <th>連絡先・SNS</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${contact_data.map(item => `
+          <tr>
+            <th class="align-middle">${item.name}</th>
+            <td class="align-middle">${item.info}</td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>`;
+
+  tableDiv.innerHTML = tableHtml;
+  articleContainer.appendChild(tableDiv);
 }
 
 window.onload = (event) => {
