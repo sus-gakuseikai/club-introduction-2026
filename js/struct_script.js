@@ -140,7 +140,8 @@ function createContent() {
   var tableDiv = document.createElement('div');
   tableDiv.className = 'table-responsive';
   
-  // ここで publish_data.js に作った新しい配列（仮に contact_data とします）を使います
+  // publish_data.js の名前に合わせて contact_only_list を使う
+  // item.info も item.contact に修正
   var tableHtml = `
     <table class="table table-striped mt-3 table-bordered">
       <thead class="table-dark">
@@ -150,10 +151,10 @@ function createContent() {
         </tr>
       </thead>
       <tbody>
-        ${contact_data.map(item => `
+        ${contact_only_list.map(item => `
           <tr>
             <th class="align-middle">${item.name}</th>
-            <td class="align-middle">${item.info}</td>
+            <td class="align-middle">${item.contact}</td>
           </tr>
         `).join('')}
       </tbody>
