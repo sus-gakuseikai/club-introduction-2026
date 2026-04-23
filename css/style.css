@@ -1,8 +1,16 @@
 #toc-container {
-  height: fit-content;
+  height: calc(100vh - 32px);
   order: 2;
   position: sticky;
   top: 16px;
+  overflow-y: auto;
+}
+#toc-container::-webkit-scrollbar {
+  width: 6px;
+}
+#toc-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 10px;
 }
 
 @media (max-width: 990px){
@@ -10,6 +18,7 @@
     height: auto;
     order: -1;
     position: relative;
+    overflow-y: visible;
   }
 }
 
