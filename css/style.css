@@ -1,9 +1,14 @@
-#toc-container {
+div#toc-container{
+  width: auto;
+  padding: 20px;
+  border: 1px solid gray;
+  background-color: rgb(210, 232, 247);
+  box-sizing: border-box;
   height: calc(100vh - 32px);
-  order: 2;
+  overflow-y: auto;
   position: sticky;
   top: 16px;
-  overflow-y: auto;
+  order: 2;
 }
 #toc-container::-webkit-scrollbar {
   width: 6px;
@@ -27,14 +32,6 @@ li.indent {
   border-left: solid 1px silver;
   padding-left: 1rem;
   position: relative;
-  box-sizing: border-box;
-}
-
-div#toc-container{
-  width: auto;
-  padding: 20px;
-  border: 1px solid gray;
-  background-color: rgb(210, 232, 247);
   box-sizing: border-box;
 }
 
