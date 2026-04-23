@@ -181,10 +181,6 @@ const publish_info = [
         isMovie: false,
         movieUrl: '',
         links: [
-          {
-            label: 'TRPG部 discord',
-            url: 'https://discord.gg/WSTDmNjGYV'
-          }
                ]
       },
       {
